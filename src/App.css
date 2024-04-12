@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+.card-section {
+    
+  width: 80%;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+  height:250px;
+  padding: 1rem;
+  background-color: pink;
+  margin: 40px auto;
+  border-radius: 12px;
+  overflow: auto;
+}
