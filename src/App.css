@@ -53,3 +53,33 @@
   border-radius: 12px;
   overflow: auto;
 }
+
+input[type = text]{
+  width: 80%;
+  border: 2px solid pink;
+  font-family: 'Courier New', monospace;
+  border-radius: 4px;
+  height:40px;
+}
+
+input[type=submit] {
+  background-color: #f2f7f5; 
+  font-family: 'Courier New', monospace;
+  color: black;
+  border: none; 
+  width: 80%;
+  border-radius: 8px;
+  padding: 10px;
+
+
+}
+input[type=submit]:hover {
+  background-color: rgb(255, 231, 145);
+  color: rgb(148, 136, 136);
+  cursor:pointer;
+}
+
+
+*:focus {
+  outline: none;
+}
