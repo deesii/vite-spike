@@ -13,5 +13,5 @@ export default function TestingNew(){
             </div>
 
         </div>
-    )
+    );
 }

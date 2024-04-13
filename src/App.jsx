@@ -3,6 +3,7 @@ import './App.css'
 import MyButton from './components/button'
 import TestingNew from './components/projects'
 import CountComponent from './components/count'
+import Board from './components/tictactoe/board'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -66,7 +67,9 @@ function App() {
         <TestingNew></TestingNew>
       </div>
 
-
+      <div className='card-section'>
+        <Board></Board>
+      </div>
 
     
     </>
