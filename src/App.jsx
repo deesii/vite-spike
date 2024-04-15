@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import MyButton from './components/button'
-import TestingNew from './components/projects'
+import Who from './components/projects'
 import CountComponent from './components/count'
 import Board from './components/tictactoe/board'
 
@@ -64,13 +64,18 @@ function App() {
       </div>
 
       <div className='card-section'>
-        <TestingNew></TestingNew>
+        <Board></Board>
+        
       </div>
+      <div className='card-section'>
+        <CountComponent/>
+      </div>
+
+      
 
       <div className='card-section'>
-        <Board></Board>
+        <Who/>
       </div>
-
     
     </>
   )

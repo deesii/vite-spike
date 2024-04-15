@@ -1,3 +1,4 @@
+import { useState } from 'react'
 export default function CountComponent(){
     const [count_1, setCount] = useState(0)
     
