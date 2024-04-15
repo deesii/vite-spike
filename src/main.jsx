@@ -11,12 +11,15 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Root />,
+    path: '/', 
     errorElement: <ErrorPage />,
   },
   {
-    path: "/dee",
+    path: "/vite-spike",
+    element: <Root />,
+  },
+  {
+    path: "/vite-spike/dee",
     element: <App />
   }
 ]);

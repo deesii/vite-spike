@@ -29,13 +29,13 @@ export default function Root() {
             <nav>
             <ul>
                 <li>
-                <a href={`/contacts/1`}>Your Name</a>
+                <a href={`/vite-spike/contacts/1`}>Your Name</a>
                 </li>
                 <li>
-                <a href={`/contacts/2`}>Your Friend</a>
+                <a href={`/vite-spike/contacts/2`}>Your Friend</a>
                 </li>
                 <li>
-                <a href={`/dee`}>D-E-E</a>
+                <a href={`/vite-spike/dee`}>D-E-E</a>
                 </li>
             </ul>
             </nav>
