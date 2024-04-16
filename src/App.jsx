@@ -1,9 +1,11 @@
 import { useState } from 'react'
+import { Routes, Route } from "react-router-dom"
 import './App.css'
 import MyButton from './components/button'
 import Who from './components/projects'
 import CountComponent from './components/count'
 import Board from './components/tictactoe/board'
+import { Link } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +27,19 @@ function App() {
   return (
     <>
       <h1>deesii</h1>
+      
+        Link me!
+        <ul>
+            <li><Link to="/tictactoe">TicTacToe</Link></li>
+            <li><Link to="/counthowhigh">Counts</Link></li>
+            <li><Link to="/greetings">Goodbyes</Link></li>
+        </ul>
+        <Routes>
+          <Route path="/tictactoe" element={<Board />} />
+          <Route path="/counthowhigh" element={<CountComponent />} />
+          <Route path="/greetings" element={<Who />} />
+        </Routes>
+    
       {/* <CountComponent></CountComponent> */}
       <div className= "card-section">
             <h2>Hello</h2>

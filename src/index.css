@@ -1,4 +1,4 @@
-/* :root {
+:root {
   font-family: 'Courier New', monospace;
   line-height: 1.5;
   font-weight: 400;
@@ -11,6 +11,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
 }
 
 a {
@@ -85,6 +91,15 @@ button:focus-visible {
   width: 34px;
 }
 
+.board-centre{
+  margin: 20px auto;
+  padding: 20px
+}
+
+.board-row{
+  width: 102px;
+  margin: 0 auto;
+}
 .board-row:after {
   clear: both;
   content: '';
@@ -101,9 +116,9 @@ button:focus-visible {
 
 .game-info {
   margin-left: 20px;
-} */
+}
 
-html {
+/* html {
   box-sizing: border-box;
 }
 *,
@@ -484,4 +499,4 @@ i {
   align-items: center;
   justify-content: center;
   width: 100%;
-}
+} */
