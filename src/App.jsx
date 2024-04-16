@@ -1,96 +1,27 @@
-import { useState } from 'react'
 import { Routes, Route } from "react-router-dom"
 import './App.css'
-import MyButton from './components/button'
 import Who from './components/projects'
 import CountComponent from './components/count'
 import Board from './components/tictactoe/board'
 import { Link } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [value, setValue] = useState(""); 
-  const [result, setResult] = useState(""); 
-  function handleSubmit(e) { 
-      e.preventDefault(); 
-      setResult( 
-          "Hello " + 
-              value 
-      ); 
-  } 
-  function handleChange(e) { 
-      setValue(e.target.value); 
-      setResult(""); 
-  } 
-  
 
   return (
     <>
       <h1>deesii</h1>
       
-        Link me!
+        
         <ul>
             <li><Link to="/tictactoe">TicTacToe</Link></li>
             <li><Link to="/counthowhigh">Counts</Link></li>
-            <li><Link to="/greetings">Goodbyes</Link></li>
+            <li><Link to="/goodbyes">Goodbyes</Link></li>
         </ul>
         <Routes>
           <Route path="/tictactoe" element={<Board />} />
           <Route path="/counthowhigh" element={<CountComponent />} />
-          <Route path="/greetings" element={<Who />} />
+          <Route path="/goodbyes" element={<Who />} />
         </Routes>
-    
-      {/* <CountComponent></CountComponent> */}
-      <div className= "card-section">
-            <h2>Hello</h2>
-            <div>
-                <form onSubmit = {handleSubmit}>
-                    What is your name?
-                    <input 
-                    type = "text" 
-                    id = "project_input" 
-                    name = "project_input" 
-                    placeholder = "fill me in" 
-                    value={value} 
-                    onInput={handleChange} required/>
-                    <p></p>
-                    <input type = "submit" id = "project_submit" name = "test" placeholder = "click me" />
-                </form>
-            </div>
-                <div>
-                    <p>{result}</p>
-                </div>
-        </div>
-
-      <div className="card-section">
-        <h1>Count me</h1>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count: {count} 
-        </button>
-        <p>
-          
-        </p>
-      </div>
-
-      <div className='card-section'>
-  
-        <MyButton></MyButton>
-      
-      </div>
-
-      <div className='card-section'>
-        <Board></Board>
-        
-      </div>
-      <div className='card-section'>
-        <CountComponent/>
-      </div>
-
-      
-
-      <div className='card-section'>
-        <Who/>
-      </div>
     
     </>
   )

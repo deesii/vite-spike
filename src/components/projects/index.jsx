@@ -17,9 +17,9 @@ export default function Who(){
     } 
 
     return(
-        
-        <div>
-            <h3>Goodbye?</h3>
+        <>
+        <div className='card-section'>
+            <br></br><h3>Goodbye?</h3>
             <div>
                 <form onSubmit = {handleSubmit}>
                     What is your name?
@@ -34,10 +34,12 @@ export default function Who(){
                     <input type = "submit" id = "project_submit" name = "test" placeholder = "click me" />
                 </form>
             </div>
-            <div>
-                    <p>{result}</p>
-                </div>
-
+            
         </div>
+        <div>
+            <p>{result}</p>
+        </div>
+
+        </>
     );
 }
