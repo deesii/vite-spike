@@ -91,10 +91,10 @@ button:focus-visible {
   width: 34px;
 }
 
-.board-centre{
+/* .board-centre{
   margin: 10px auto;
   padding: 10px
-}
+} */
 
 .board-row{
   width: 102px;

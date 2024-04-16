@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Square from "../square";
+import ResetButton from '../reset';
 
 export default function Board() {
     
@@ -16,6 +17,10 @@ export default function Board() {
     
     else {
         winnerStatus = "Next player: " + (xIsNext ? "X" : "O");
+    }
+
+    function resetClick(){
+        setSquares(Array(9).fill(null));
     }
 
     function handleClick (i){
@@ -40,9 +45,9 @@ export default function Board() {
     return (
     <>
         <div className = "card-section">
-            <br></br><h3>TicTacToe</h3>
+            <h3>TicTacToe</h3>
             <div className="status">{winnerStatus}</div>
-            <div className = "board-centre">
+            <div className="status">
                 <div className="board-row">
                 <Square value={squares[0]} onSquareClick={() => handleClick(0)}/>
                 <Square value={squares[1]} onSquareClick={() => handleClick(1)}/>
@@ -59,6 +64,10 @@ export default function Board() {
                 <Square value={squares[8]} onSquareClick={() => handleClick(8)}/>
                 </div>
             </div>
+            <div>
+                <ResetButton onResetClick={() => resetClick()}/>
+            </div>
+            
         </div>
     </>
     );
