@@ -36,7 +36,7 @@ export default function Who(){
             </div>
             
         </div>
-        <div>
+        <div className = "goodbye">
             <p>{result}</p>
         </div>
 
