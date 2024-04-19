@@ -1,5 +1,4 @@
-import  MyButton  from "./index";
-
+import MyButton from "./index";
 export default {
     title: 'Albert/MyButton',
     component: MyButton
