@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { Routes, Route } from "react-router-dom"
 import ProjectNavBar from "../MiniProjectsNavBar"
 import AboutMe from "../aboutme"
-import Who from '../Goodbye'
+import Who from '../goodbye'
 import CountComponent from '../Count'
 import Board from '../tictactoe/board'
 import CvProjects from "../CvProjectsNavBar"
