@@ -2,8 +2,8 @@ import './App.css'
 import { Link } from "react-router-dom"
 import linkedinLogo from './assets/linkedin.svg'
 import githubLogo from './assets/github.svg'
-import HomeNavBar from './components/HomeNavBar'
-import CvProjects from './components/CvProjectsNavBar'
+import HomeNavBar from './components/homenavbar'
+
 
 
 function App() {
