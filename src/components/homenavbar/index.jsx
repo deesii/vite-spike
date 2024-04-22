@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
 import { Routes, Route } from "react-router-dom"
-import ProjectNavBar from "../miniprojectsnavbar"
+import ProjectNavBar from "../MiniProjectsNavBar"
 import AboutMe from "../aboutme"
 import Who from '../goodbye'
 import CountComponent from '../count'
 import Board from '../tictactoe/board'
-import CvProjects from "../cvprojectsnavbar"
+import CvProjects from "../CvProjectsNavBar"
 import BlueberriesBnb from "../BlueberriesBnb"
 
 export default function HomeNavBar (){
