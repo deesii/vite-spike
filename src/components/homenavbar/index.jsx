@@ -5,6 +5,7 @@ import AboutMe from "../AboutMe"
 import Who from '../Goodbye'
 import CountComponent from '../Count'
 import Board from '../TicTacToe/board'
+import CvProjects from "../CvProjectsNavBar"
 import BlueberriesBnb from "../BlueberriesBnb"
 
 export default function HomeNavBar (){
@@ -21,7 +22,8 @@ export default function HomeNavBar (){
                 <Route path="/mini-pjts/tictactoe" element={<Board />} />
                 <Route path="/mini-pjts/counthowhigh" element={<CountComponent />} />
                 <Route path="/mini-pjts/goodbyes" element={<Who />} />
-                <Route path="/cv-pjts/blueberriesbnb" element={<BlueberriesBnb />} />
+                <Route path="/cv-pjts" element={<CvProjects/>} />
+                <Route path="/cv-pjts/blueberriesbnb" element={<BlueberriesBnb/>} />
             </Routes>
         </>
     )
