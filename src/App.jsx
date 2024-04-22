@@ -1,13 +1,9 @@
-import ProjectNavBar from './components/projectnavbar'
 import './App.css'
 import { Link } from "react-router-dom"
 import linkedinLogo from './assets/linkedin.svg'
 import githubLogo from './assets/github.svg'
-import { Routes, Route } from "react-router-dom"
-import Who from './components/goodbye'
-import CountComponent from './components/count'
-import Board from './components/tictactoe/board'
 import HomeNavBar from './components/homenavbar'
+import CvProjects from './components/CvProjectsNavBar'
 
 
 function App() {
@@ -24,7 +20,7 @@ function App() {
       </a>
       </div>  
       <HomeNavBar />
-     
+      <CvProjects />
 
 
     </>
