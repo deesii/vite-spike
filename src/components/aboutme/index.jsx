@@ -1,7 +1,7 @@
 export default function AboutMe (){
     return(
         <div>
-            <p>  I am Donna, switching from airport planning to software development,
+            <p>  I am Donna, career switching from airport planning to software engineering,
             and looking for my first role in tech.</p>
             <p>From writing and updating HTML and CSS on my MySpace page, 
             playing around with VBA for creating user forms for data entry, to writing 
@@ -12,6 +12,11 @@ export default function AboutMe (){
             <p>
                 I took the leap last year, studying cs50 Introduction to Computer Science, and 
                 have just completed a Software Engineering Foundations bootcamp.  
+            </p>
+            <p>
+                Past projects and experience showcase skills that include: Python (NumPy, Pandas, Flask, Request, sqlite3, bootstrap, pyscopg2), React, 
+                JavaScript, C. Collaboration tools: Git, Jupyter. Distribution systems: Flask and Docker. Quality and testing: pytest, 
+                Playwright. Database: SQLite3, PostGreSQL. Data visualisation: Matplotlib, Seaborn libraries, Power BI 
             </p>
             <p>I am interested in people behaviours, patterns, and solving problems to make a difference.
             </p>

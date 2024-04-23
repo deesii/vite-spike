@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Link to="/"><h1>deesii</h1></Link>
+      <Link to="/"><p><h1>Donna Cheng</h1></p><p>/deesii</p></Link>
       <div className = "contact-row">
       <a className = "contact-link" href="https://www.linkedin.com/in/donna-cheng-deesii/" rel="nofollow noreferrer">
         <img src={ linkedinLogo } alt="LinkedIn Image" />

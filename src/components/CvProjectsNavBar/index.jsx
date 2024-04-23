@@ -21,7 +21,8 @@ export default function CvProjects(){
 
     return(
         <>
-            <Link to="/cv-pjts/blueberriesbnb">BlueberriesBnB</Link>|
+            <Link to="/cv-pjts/blueberriesbnb"> BlueberriesBnB</Link> |
+            <Link to="/cv-pjts/portfolio"> portfolio</Link> |
         </>
     );
 }
